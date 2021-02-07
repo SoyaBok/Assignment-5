@@ -1,0 +1,33 @@
+.title {
+    display: block;
+    text-align: center;
+}
+#search-box {
+    display: flex;
+   
+   justify-content: center;
+   margin-top: 50px;
+}
+
+#main { 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+       
+}
+.meal-card>img{
+    height: 100px;
+    width: 200px;
+}
+#parent-main {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#parent-ingredient {
+   margin-left: 500px;
+    display: block;
+}
+#parent-ingredient>img{
+    width: 500px;
+    height: 300px;
+}
